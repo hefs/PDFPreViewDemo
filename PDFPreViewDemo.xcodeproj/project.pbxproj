@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420717531F035832005CA88E /* PDFReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420717511F035832005CA88E /* PDFReaderViewController.m */; };
+		420717541F035832005CA88E /* PDFReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420717521F035832005CA88E /* PDFReaderViewController.xib */; };
 		427305721EFB57760031CD75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 427305711EFB57760031CD75 /* main.m */; };
 		427305751EFB57760031CD75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 427305741EFB57760031CD75 /* AppDelegate.m */; };
 		427305781EFB57760031CD75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427305771EFB57760031CD75 /* ViewController.m */; };
 		4273057B1EFB57760031CD75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427305791EFB57760031CD75 /* Main.storyboard */; };
 		4273057D1EFB57760031CD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4273057C1EFB57760031CD75 /* Assets.xcassets */; };
 		427305801EFB57760031CD75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4273057E1EFB57760031CD75 /* LaunchScreen.storyboard */; };
+		427305881EFB59770031CD75 /* 我的Bigfive分析报告，欢迎围观：.pdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 427305871EFB59770031CD75 /* 我的Bigfive分析报告，欢迎围观：.pdf.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420717501F035832005CA88E /* PDFReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFReaderViewController.h; sourceTree = "<group>"; };
+		420717511F035832005CA88E /* PDFReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFReaderViewController.m; sourceTree = "<group>"; };
+		420717521F035832005CA88E /* PDFReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFReaderViewController.xib; sourceTree = "<group>"; };
 		4273056D1EFB57760031CD75 /* PDFPreViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFPreViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427305711EFB57760031CD75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		427305731EFB57760031CD75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		4273057C1EFB57760031CD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4273057F1EFB57760031CD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		427305811EFB57760031CD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427305871EFB59770031CD75 /* 我的Bigfive分析报告，欢迎围观：.pdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "我的Bigfive分析报告，欢迎围观：.pdf.pdf"; sourceTree = "<group>"; };
+		427306431EFBC4EC0031CD75 /* PDFPreViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PDFPreViewDemo.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,13 @@
 			children = (
 				427305731EFB57760031CD75 /* AppDelegate.h */,
 				427305741EFB57760031CD75 /* AppDelegate.m */,
+				427306431EFBC4EC0031CD75 /* PDFPreViewDemo.xcodeproj */,
+				427305871EFB59770031CD75 /* 我的Bigfive分析报告，欢迎围观：.pdf.pdf */,
 				427305761EFB57760031CD75 /* ViewController.h */,
 				427305771EFB57760031CD75 /* ViewController.m */,
+				420717501F035832005CA88E /* PDFReaderViewController.h */,
+				420717511F035832005CA88E /* PDFReaderViewController.m */,
+				420717521F035832005CA88E /* PDFReaderViewController.xib */,
 				427305791EFB57760031CD75 /* Main.storyboard */,
 				4273057C1EFB57760031CD75 /* Assets.xcassets */,
 				4273057E1EFB57760031CD75 /* LaunchScreen.storyboard */,
@@ -77,6 +90,11 @@
 				427305711EFB57760031CD75 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		427306441EFBC4EC0031CD75 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +128,7 @@
 				TargetAttributes = {
 					4273056C1EFB57760031CD75 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DP9EWUSRWN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +144,12 @@
 			mainGroup = 427305641EFB57760031CD75;
 			productRefGroup = 4273056E1EFB57760031CD75 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 427306441EFBC4EC0031CD75 /* Products */;
+					ProjectRef = 427306431EFBC4EC0031CD75 /* PDFPreViewDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4273056C1EFB57760031CD75 /* PDFPreViewDemo */,
@@ -137,7 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420717541F035832005CA88E /* PDFReaderViewController.xib in Resources */,
 				427305801EFB57760031CD75 /* LaunchScreen.storyboard in Resources */,
+				427305881EFB59770031CD75 /* 我的Bigfive分析报告，欢迎围观：.pdf.pdf in Resources */,
 				4273057D1EFB57760031CD75 /* Assets.xcassets in Resources */,
 				4273057B1EFB57760031CD75 /* Main.storyboard in Resources */,
 			);
@@ -150,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420717531F035832005CA88E /* PDFReaderViewController.m in Sources */,
 				427305781EFB57760031CD75 /* ViewController.m in Sources */,
 				427305751EFB57760031CD75 /* AppDelegate.m in Sources */,
 				427305721EFB57760031CD75 /* main.m in Sources */,
@@ -272,8 +300,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DP9EWUSRWN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PDFPreViewDemo",
+				);
 				INFOPLIST_FILE = PDFPreViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PDFPreViewDemo",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = hefs.PDFPreViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -283,8 +321,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DP9EWUSRWN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PDFPreViewDemo",
+				);
 				INFOPLIST_FILE = PDFPreViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PDFPreViewDemo",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = hefs.PDFPreViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -309,6 +357,7 @@
 				427305861EFB57760031CD75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
